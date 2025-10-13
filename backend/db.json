@@ -1,0 +1,59 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Alice Kumar",
+      "email": "alice@school.edu",
+      "password": "pass123",
+      "ssid": "CampusWiFi"
+    },
+    {
+      "id": 2,
+      "name": "Bob Singh",
+      "email": "bob@school.edu",
+      "password": "pass123",
+      "ssid": "CampusWiFi-BlockB"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Student One",
+      "rollNo": "CS01",
+      "macAddress": "AA:BB:CC:DD:EE:01",
+      "password": "pass123"
+    },
+    {
+      "id": 2,
+      "name": "Student Two",
+      "rollNo": "CS02",
+      "macAddress": "AA:BB:CC:DD:EE:02",
+      "password": "pass123"
+    }
+  ],
+  "otpSessions": [
+    {
+      "id": 1,
+      "otp": "123456",
+      "teacherId": 1,
+      "ssid": "CampusWiFi",
+      "createdAt": "2025-10-13T09:00:00.000Z"
+    },
+    {
+      "id": "8a72",
+      "teacherId": 1,
+      "otp": "1871",
+      "ssid": "Unknown SSID",
+      "createdAt": "2025-10-13T17:20:54.114Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "date": "2025-10-13",
+      "ssid": "CampusWiFi",
+      "status": "present"
+    }
+  ]
+}
