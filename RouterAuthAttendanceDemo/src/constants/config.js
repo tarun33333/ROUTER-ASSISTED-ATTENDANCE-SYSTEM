@@ -1,5 +1,6 @@
 import { Platform } from 'react-native';
 import Constants from 'expo-constants';
+import { API_URL } from '@env';
 
 function resolveHost() {
   const hostFromExpo =
@@ -16,7 +17,7 @@ function resolveHost() {
   return hostFromExpo;
 }
 
-export const BASE_URL = `http://${resolveHost()}:5001`;
+export const BASE_URL = (API_URL && API_URL.trim()) ? API_URL.trim() : `http://${resolveHost()}:5001`;
 
 // Theme Colors
 export const COLORS = {

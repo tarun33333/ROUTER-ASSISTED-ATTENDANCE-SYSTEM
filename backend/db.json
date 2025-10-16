@@ -55,5 +55,34 @@
       "ssid": "CampusWiFi",
       "status": "present"
     }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "teacherId": 1,
+      "studentId": 1,
+      "subject": "Maths",
+      "time": "10:00-11:00",
+      "room": "A101",
+      "date": "2025-10-15"
+    },
+    {
+      "id": 2,
+      "teacherId": 1,
+      "studentId": 1,
+      "subject": "Physics",
+      "time": "12:00-13:00",
+      "room": "B202",
+      "date": "2025-10-15"
+    },
+    {
+      "id": 3,
+      "teacherId": 2,
+      "studentId": 2,
+      "subject": "Chemistry",
+      "time": "09:00-10:00",
+      "room": "C303",
+      "date": "2025-10-15"
+    }
   ]
 }
